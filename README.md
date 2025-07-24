@@ -2,7 +2,7 @@
 A responsive webpage project for ISMO Tétouan, built using **HTML**, **CSS**, and **Bootstrap**. This project showcases sections such as institute introduction, filières (specialties), and more. The design is mobile-friendly and easy to customize.
 ## 🚀 Demo
 
-👉 [Live Demo](https://your-demo-link.com)  
+👉 [Live Demo](https://zaidn4.github.io/ISMO-TETOUAN/)  
 
 ## 🛠️ Built With 
 - **HTML5**
