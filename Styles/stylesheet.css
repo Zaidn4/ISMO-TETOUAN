@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:hsl(207, 85%, 54%);
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+#logo{
+    height: 15vh;
+    width: 8%;
+}
+ul{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    list-style-type: none;
+}
+.nav_a ,#adresse {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: hsl(180, 100%, 97%);
+    transition: all 0.3s ease-out;
+}
+.nav_a:hover , #adresse:hover{
+    font-size: 18px;
+    color: hsl(175, 15%, 46%);
+}
+#container{
+    background-image: url(../Images/bground.jpg);
+    background-size: cover;
+    height:51rem;
+    width: 100%;
+    padding: 3%;
+}
+.section11{
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+.section12{
+    float: left;
+    width: 25%;
+    position: relative;
+    left: 15%;
+}
+.section12 img{
+    border-radius: 8%;
+}
+#ista{
+    font-family: "Noto Serif", serif;
+    font-size: 45px;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: black;
+    padding: 0 0 3% 0;
+}
+#button{
+    padding-top: 3%;
+}
+#info{
+    font-weight:600;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 5px;
+    color: black;
+    background-color: rgb(69, 69, 199);
+    text-decoration: none;
+    margin: 15px;
+    display: inline;
+    transition: all 0.3s ease-in;
+}
+#contacter{
+    font-weight:600;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 5px;
+    background-color: rgb(211, 158, 12);
+    color: white;
+    text-decoration: none;
+    font-weight:600;
+    transition: all 0.3s ease-in;
+}
+#info:hover{
+    color: white;
+    background-color: black;
+    font-size: 31px;
+}
+#contacter:hover{
+    color: white;
+    background-color: black;
+    font-size: 31px;
+}
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section2 img{
+    border-radius: 20px;
+    width: 30%;
+    height: 42vh;
+    transition: all 1s ease 0s;
+}
+.section2 img:hover{
+    scale: 1.1;
+}
+#notreinstitut{
+    font-family: "Noto Serif", serif;
+    font-size: 45px;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    align-items: center;
+    color: black;
+    text-align: center;
+    margin: 3%;
+}
+#Présentationismo{
+    font-family: "Noto Serif", serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    align-items: center;
+    color: black;
+    text-align: center;
+    margin: 3%;
+}
+.filiers {
+    text-decoration: none;
+}
+.filiers img {
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 100%;
+    height: 34vh;
+    transition: all 0.5s ease-in 0s;
+    object-fit: cover;
+}
+.filiers img:hover{
+    width: 100%;
+    height: 35vh;
+}
+.Sect{
+    display: flex; 
+    text-align: center;
+}
+.Sect hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%; 
+    margin-bottom: 3%; 
+    border-radius: 70%;
+    color:black;
+    size:8;
+}
+#article1{
+    margin:3%;
+    margin-left: 10%;
+    width: 40%; 
+}
+#article1 p{
+    font-size: 18px; 
+    text-align: justify;
+}
+#article2{
+    margin:3%;
+    margin-right: 10%;
+    width: 40%;
+    border: 5px solid;
+    border-radius: 6%;
+    background-color: rgb(98, 157, 196);
+}
+#imagePrésentation{
+    width: 80%;
+    margin: 3%;
+}
+#article3{
+    background-color: black;
+    color: white;
+}
+#article3 img{
+    width:400px;
+    height:300px;
+}
+#Fait_marquant{
+    padding-top: 1%;
+    color: white;
+    font-weight: 600;
+    font-family: "Noto Serif", serif;
+    text-align: center;
+    font-size: 36px;
+}
+#i11 , #i22 ,#i33,#i44,#i55{
+    margin: 10%;
+    display: flex;
+    padding-bottom: 2%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+#text11,#text22,#text33,#text44,#text55{
+    align-content: center;
+    font-size: 18px;
+    padding-left: 3%;
+}
+#mini_titre{
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 30px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:hsl(207, 73%, 53%);
+}
+footer h3{
+    font-weight:bold;
+    font-size:28px;
+    color: white;
+}
+.liens a{
+    display: block;
+    margin-bottom: 10% ;
+}
+footer a{
+    text-decoration: underline;
+}
+footer a ,footer p,footer span{
+    color: black;
+    font-weight: 800;
+    font-size: 17px;
+    padding-top:1%;
+    transition: all 0.3s ease;
+}
+footer iframe{
+    width:400px;
+    height:300px;
+}
+footer a:hover{
+    font-size: 16px;
+    color: brown;
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 4% 2%;
+    }
+    #logo {
+        width: 18%;
+        height: auto;
+    }
+    ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    #container{
+        height:auto;
+    }
+    .section11, .section12 {
+        width: 100%;
+        float: none;
+        position: static;
+        margin-bottom: 32px;
+    }
+    .section12 {
+       display:flex;
+       justify-content:center
+    }
+    .section2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section2 img {
+        width: 85%;
+        margin-bottom: 18px;
+        height: 35vh;
+    }
+    .Sect {
+        flex-direction: column;
+        align-items: center;
+    }
+    #article1, #article2 {
+        width: 95%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #article3 img {
+        width: 100%;
+        height: 300px;
+        max-width: 350px;
+    }
+    #i11, #i22, #i33, #i44, #i55 {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        padding: 16px 0;
+    }
+    .liens{
+        text-align:center;
+    }
+    footer iframe {
+        display:block;
+        width: 500px;
+        height: 400px;
+        margin:auto;
+
+    }
+}
